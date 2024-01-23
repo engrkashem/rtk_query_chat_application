@@ -22,3 +22,28 @@ server.use(auth);
 server.use(router);
 
 server.listen(port);
+
+/**
+
+"users": [
+        {
+            "email": "sumit@learnwithsumit.com",
+            "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+            "name": "Sumit Saha",
+            "id": 1
+        },
+        {
+            "email": "akash@learnwithsumit.com",
+            "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+            "name": "Akash Ahmed",
+            "id": 2
+        },
+        {
+            "email": "saad@learnwithsumit.com",
+            "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+            "name": "Saad Hasan",
+            "id": 3
+        }
+    ],
+
+ */
